@@ -1,0 +1,121 @@
+nav a:hover {
+    text-transform: uppercase;
+    background: rgb(109, 104, 104);
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba( 24, 96, 124, 0.5);
+    padding: 18px;
+    border-radius: 25px;
+}
+
+/* The hero image */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://i2-prod.leeds-live.co.uk/best-in-leeds/restaurants-bars/article24117594.ece/ALTERNATES/s1200/48390758_2475800019101352_5651077226569924608_o.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    height: 300px
+  }
+  
+  /* Hero Content */
+  .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  
+  .card:hover {
+    transform: scale(1.03);
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 193, 7, 0.4);
+  }
+
+  .btn-warning:hover {
+    background-color: #e0a800;
+    color: #212529;
+  }
+
+  .contact-form:hover {
+    transition: 0.3s ease;
+    box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+  }
+
+  .btn-warning:hover {
+    background-color: #e0a800;
+    color: #212529;
+  }
+
+    /* Hover effect for form input and textareas */
+    .form-control:focus {
+      box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+      border-color: #ffc107;
+    }
+  
+    /* Hover effect for the submit button */
+    .btn-warning:hover {
+      background-color: #e0a800;
+      color: #212529;
+    }
+  
+    /* Hover effect for the form */
+    .contact-form:hover {
+      transition: 0.3s ease;
+      box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+    }
+
+        /* Navbar Styling */
+        .navbar {
+          background-color: #1a1a1a;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .navbar-brand {
+          font-size: 1.75rem;
+          font-weight: bold;
+          color: #ffcc00;
+          text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.8);
+      }
+
+      .navbar-nav .nav-link {
+          color: #d1d1d1;
+      }
+
+      .navbar-nav .nav-link:hover {
+          color: #ffcc00;
+          text-decoration: underline;
+      }
+
+      /* Container styling for better spacing */
+      .container-fluid {
+          padding: 0 20px;
+      }
+
+ 
+
+    
